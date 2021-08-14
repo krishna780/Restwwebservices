@@ -1,0 +1,14 @@
+package String;
+
+public class CharAtEx {
+
+	public static void main(String[] args) {
+		String str = "welcome to java world";
+		// System.out.println(str.charAt(5));
+		for (int i = 0; i < str.length(); i++) {
+		}
+		System.out.println(i);
+
+	}
+
+}

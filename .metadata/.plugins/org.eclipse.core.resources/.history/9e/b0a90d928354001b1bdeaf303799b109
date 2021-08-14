@@ -1,0 +1,22 @@
+package cocurrency;
+
+public class Counter {
+
+	private int i=0;
+	private int j=0;
+
+   synchronized	public void increment1() {
+		i++;
+	}
+
+	public int getI() {
+		return i;
+	}
+	 synchronized	public void incrementj() {
+			j++;
+		}
+
+		public int getj() {
+			return j;
+		}
+}

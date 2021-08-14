@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\krish\Downloads\springboot-mapstruct-example-master"/>
+			<item value="C:\Users\krish\Downloads\batch-processing-large-datasets-spring-master"/>
+			<item value="C:\Users\krish\Downloads\spring-mapstruct-example-master"/>
+			<item value="C:\Users\krish\Downloads\springboot-mapstruct-master"/>
+			<item value="E:\workingplace\currency-conversion-service"/>
+			<item value="E:\workingplace\currency-exchange-service"/>
+			<item value="E:\workingplace\enrolee"/>
+			<item value="C:\Users\krish\Downloads\spring-master-class-master"/>
+			<item value="C:\Users\krish\Downloads\Airlines-Reservation-System-Java-Project"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

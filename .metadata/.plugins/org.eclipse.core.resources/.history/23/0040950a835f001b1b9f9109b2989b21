@@ -1,0 +1,78 @@
+package com.example.demo.entity;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
+import lombok.Data;
+import lombok.Getter;
+import lombok.NonNull;
+import lombok.Setter;
+
+@Entity
+@Table(name = "product")
+@Data
+@Getter
+@Setter
+public class Product {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id")
+	private Long id;
+	@ManyToOne
+	@JoinColumn(name = "category_id", nullable = false)
+	private ProductCategory category;
+	@Column(name = "sku")
+	@NonNull
+	private String sku;
+	@Column(name = "name")
+	private String name;
+	@Column(name = "description")
+	private String description;
+	@Column(name = "unit_price")
+	private String unitPrice;
+	@Column(name = "image_url")
+	private String imageUrl;
+	@Column(name = "active")
+	private boolean active;
+	@Column(name = "units_in_stock")
+	private int unitsInStock;
+	@Column(name = "date_created")
+	@CreationTimestamp
+	private Date dateCreated;
+	@Column
+	@UpdateTimestamp
+	private Date lastUpdated;
+
+	public Product() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Product(Long id, ProductCategory category, @NonNull String sku, String name, String description,
+			String unitPrice, String imageUrl, boolean active, int unitsInStock, Date dateCreated, Date lastUpdated) {
+		super();
+		this.id = id;
+		this.category = category;
+		this.sku = sku;
+		this.name = name;
+		this.description = description;
+		this.unitPrice = unitPrice;
+		this.imageUrl = imageUrl;
+		this.active = active;
+		this.unitsInStock = unitsInStock;
+		this.dateCreated = dateCreated;
+		this.lastUpdated = lastUpdated;
+	}
+
+}

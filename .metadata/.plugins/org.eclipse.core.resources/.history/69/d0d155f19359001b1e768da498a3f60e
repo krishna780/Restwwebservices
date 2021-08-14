@@ -1,0 +1,19 @@
+package com.example.demo;
+
+import com.fasterxml.jackson.annotation.JsonValue;
+
+public enum Major {
+
+	PHYSICS("physics"), Chemistry("chemistry"), MATHS("maths");
+
+	private String value;
+
+	Major(String value) {
+		this.value = value;
+	}
+
+//	@JsonValue
+	public String value() {
+		return value;
+	}
+}

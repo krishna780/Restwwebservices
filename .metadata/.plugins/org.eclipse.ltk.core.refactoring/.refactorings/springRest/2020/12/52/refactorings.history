@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;springRest&apos;&#x0D;&#x0A;- Original project: &apos;springRest&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.rest.springRest.model.Patient.java&#x0D;&#x0A;     com.rest.springRest.model.PatientService.java&#x0D;&#x0A;     com.rest.springRest.model.PatientServiceImpl.java" description="Delete elements" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.rest.springRest.model{PatientService.java" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.rest.springRest.model{PatientServiceImpl.java" element3="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.rest.springRest.model{Patient.java" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1608913936048" subPackages="false" version="1.0"/>
+</session>

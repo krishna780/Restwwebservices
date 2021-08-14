@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 11
+Implementation-Title: Spring-boot-ecommerce
+Implementation-Version: 0.0.1-SNAPSHOT
+Main-Class: com.example.demo.SpringBootEcommerceApplication
+Created-By: Maven Integration for Eclipse
+
