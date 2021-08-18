@@ -1,0 +1,12 @@
+
+public class JavaEx {
+
+	public static void main(String[] args) {
+		String str1 = "welcome";
+		String str2 = "WElcome";
+		String str3 = "welcome";
+		System.out.println(str1.compareTo(str3));
+
+	}
+
+}

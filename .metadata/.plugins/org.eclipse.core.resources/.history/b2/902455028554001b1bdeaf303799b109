@@ -1,0 +1,29 @@
+package cocurrency;
+
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class BiCounter {
+
+	private int i = 0;
+
+	private int j = 0;
+	Lock lockForI=new ReentrantLock();
+	Lock lockForj=new ReentrantLock();
+
+	synchronized public void incrementi() {
+		i++;
+	}
+
+	public int getI() {
+		return i;
+	}
+
+	synchronized public void incrementj() {
+		j++;
+	}
+
+	public int getj() {
+		return j;
+	}
+}

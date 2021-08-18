@@ -1,0 +1,6 @@
+com\example\demo\SpringBootEcommerceApplication.class
+com\example\demo\config\MyDataRestConfig.class
+com\example\demo\entity\ProductCategory.class
+com\example\demo\entity\Product.class
+com\example\demo\dao\ProductCategoryrepository.class
+com\example\demo\dao\ProductRepository.class

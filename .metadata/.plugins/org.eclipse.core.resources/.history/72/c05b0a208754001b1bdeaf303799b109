@@ -1,0 +1,21 @@
+package cocurrency;
+
+import java.util.Hashtable;
+import java.util.Map;
+import java.util.concurrent.atomic.LongAdder;
+
+public class ConcurrentMapRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Map<Character, LongAdder> occurances= new Hashtable<Character, LongAdder>();
+		
+             String str="ABCD ABCD ABCD";
+             for (char string : str.toCharArray()) {
+            	 occurances.get(string);
+				
+			}
+	}
+
+}

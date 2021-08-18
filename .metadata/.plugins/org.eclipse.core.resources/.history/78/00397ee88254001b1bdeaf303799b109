@@ -1,0 +1,14 @@
+package cocurrency;
+
+public class Counter {
+
+	int i;
+
+	public void increment() {
+		i++;
+	}
+
+	public int getI() {
+		return i;
+	}
+}

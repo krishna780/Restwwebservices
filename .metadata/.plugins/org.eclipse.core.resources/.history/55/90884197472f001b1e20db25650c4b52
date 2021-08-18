@@ -1,0 +1,24 @@
+
+public class JavaEx {
+
+	public static void main(String[] args) throws Exception {
+		String str1 = "welcome";
+		String str2 = "WELcome";
+		String str3 = "welcome";
+		// System.out.println(str1.compareTo(str2));
+		// System.out.println(str1.substring(17));
+		char camp;
+		int incr = 0;
+		int i;
+		for (i = 0; i < str1.length(); i++) {
+			camp = str1.charAt(i);
+			if (camp == str1.charAt(i)) {
+				incr++;
+
+			}
+		}
+		System.out.println(str1.charAt(i) + " " + incr);
+
+	}
+
+}
